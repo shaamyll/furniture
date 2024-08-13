@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Site</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+KR:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- fav ivon -->
+     <link rel="icon" type="image/png" href="../furniture-logo-home-furnishing-design-room-icon-illustration-table-chair-lamp-frame-clock-flower-pot-free-vector-removebg-preview.png">
+     <link rel="stylesheet" href="./index.css">
+     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+        }
+        
+        header{
+           
+        }
+        header ul{
+          font-style: normal;
+          font-family: "Quicksand", sans-serif;
+        }
+        header li{
+          color: black;
+
+        }
+        header li:hover{
+          color: orange;
+          
+        }
+        header i{
+            font-size: larger;
+            color: black;
+    
+        }
+        header i:hover{
+            font-size: larger;
+            color: orange;
+    
+        }
+        header p{
+            font-size: small;
+            font-style: normal;
+        }
+        header span{
+          
+            font-size: xx-large;
+            color: rgb(71, 3, 3);
+            font-style: italic;
+        }
+        
+        h1{
+            font-family: "Grey Qo";
+        
+            font-weight: 700;
+        }
+        i{
+            padding-left: 5px;
+            padding-top: 5px;
+            font-size: xx-large;
+        }
+        
+        #section1{
+          font-family: Poppins, sans-serif;
+          font-style: normal;
+        }
+
+        #section1 h1{
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+            color: white;
+
+          }
+          section p{
+            font-size: larger;
+          }
+
+
+
+        .col-2{
+            margin: 20px;
+            align-items: center;
+            text-align: center;
+        }
+        .col-2 img{
+            margin-left: 15px;
+        }
+        section2 p{
+            padding-top: 10px;
+            font-size: larger;
+
+        }
+        .rowww-10{
+         display: flex;
+         justify-content: space-around;
+        }
+        
+      #section4 img:hover{
+
+      }
+
+      #section5-12{
+
+      }
+ 
+     </style>
+</head>
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border ">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bolder fs-3" href="#"><img src="../furniture-logo-home-furnishing-design-room-icon-illustration-table-chair-lamp-frame-clock-flower-pot-free-vector-removebg-preview.png" alt="" width="50px" height="50px"><span >Woodco.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success " type="submit">Search</button>
+            </form>
+            <div class="d-flex flex-sm-coloumn text-center pe-2 ps-2">
+                <i class="ms-3"><i class="fa-solid fa-location-dot"></i> <p>location</p></i>
+               
+            </div>
+            <div class="d-flex flex-sm-coloumn text-center pe-2">
+                <i class="ms-3"><i class="fa-solid fa-cart-shopping"></i> <p>cart</p></i>
+               
+            </div>
+            <div class="d-flex flex-sm-coloumn text-center pe-2">
+                <i class="ms-3"><i class="fa-solid fa-heart"></i><p>Wishlist</p></i>
+                
+            </div>
+            <div class="d-flex flex-sm-coloumn text-center pe-2">
+                <i class="ms-3"><i class="fa-solid fa-user"></i><p>User</p></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+   </header>
+
+
+   <div class="fuck container-fluid border">
+      <ul>
+        <li>Sofas</li>
+        <li>Living</li>
+        <li>bedroom</li>
+        <li>Dining & Kitchen</li>
+        <li>Storage</li>
+        <li>Study & office</li>
+        <li>Matresses</li>
+        <li>Decor</li>
+      </ul>
+   </div>
+
+
+   <section id="section1">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://www.pixelstalk.net/wp-content/uploads/images1/Download-hd-furniture-wallpapers.jpg" class="d-block w-100 border shadow" alt="..."  height="680px">
+            <div class="carousel-caption d-none d-md-block">
+              <img src="../stock-vector--off-tag-sticker-label-badge-black-friday-sale-template-poster-banner-flyer-off-logo-2473542333-removebg-preview.png" alt="" width="100px" height="90px">
+              <h1>Beautify Your Living Spaces</h1>
+              <p>Revamp Every Corner with Elegance</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://e0.pxfuel.com/wallpapers/701/250/desktop-wallpaper-miscellanea-miscellaneous-style-sofa-furniture-modern-up-to-date.jpg" class="d-block w-100" height="680px" alt="... ">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Explore Essential Home Furniture</h1>
+              <p>Design Your Home Decor, Your Way</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/480/897/69/room-blue-furniture-couch-wallpaper-preview.jpg" class="d-block w-100" alt="..." height="680px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><h1 class="text-dark">New Collections</h1></h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   </section>
+   <br><br>
+<section2>
+    <h2 class="text-center  fw-bolder mb-0 ">Top picks for you.. </h2><p class="text-center pt-0">Impressive collection for your dream home</p>
+    <div class="row bg-light">
+        <div class="col-2 ">
+            <img src="https://www.home-designing.com/wp-content/uploads/2022/06/black-bedroom-decor-ideas.jpg" alt="" class="rounded-circle border shadow" width="200px" height="200px">
+            <p>Bedroom</p>
+        </div>
+        <div class="col-2">
+            <img src="https://i.pinimg.com/736x/30/fd/fd/30fdfd121bb2074db9a4a458779631ef.jpg" alt="" class="rounded-circle border shadow" width="200px" height="200px">
+            <p class="text-center">Living</p>
+        </div>
+        <div class="col-2 ">
+            <img src="https://img.interiorcompany.com/interior/webproduct/366638506900968397738.png" alt="" class="rounded-circle border shadow" width="200px" height="200px"><p>Kitchen</p>
+        </div>
+        <div class="col-2 ">
+            <img src="https://images.livspace-cdn.com/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/ond-2023-1696420252-fyaIE/existing-renders-1696420274-57isq/study-table-1696420283-ku7Sh/20-1696420351-EjW8O.jpg" alt="" class="rounded-circle border shadow" width="200px" height="200px"><p>Study</p>
+        </div>
+        <div class="col-2 ">
+            <img src="https://www.99acres.com/microsite/articles/files/2023/12/kids_room_decorating_ideas-ab6e20e0-0062-401d-9ae6-5feb40c3d083.jpg" alt="" class="rounded-circle border shadow" width="200px" height="200px"><p>Kids</p>
+        </div>
+    </div>
+    <div class="row bg-light">
+      <div class="col-2 ">
+          <img src="https://homafy.com/wp-content/uploads/2023/05/Modern-Home-Metal-Wall-Art.jpeg" alt="" class="rounded-circle border shadow" width="200px" height="200px">
+          <p>Home decor</p>
+      </div>
+      <div class="col-2">
+          <img src="https://ik.imagekit.io/2xkwa8s1i/img/coffee-tables/praline/1.jpg" alt="" class="rounded-circle border shadow" width="200px" height="200px">
+          <p class="text-center">Coffee tables</p>
+      </div>
+      <div class="col-2 ">
+          <img src="https://images-cdn.ubuy.co.in/633b3f7524e54620d94c8c83-modern-spiral-design-led-table-lamp.jpg" alt="" class="rounded-circle border shadow" width="200px" height="200px"><p>Lamp & Lightnings</p>
+      </div>
+      <div class="col-2 ">
+          <img src="https://evolveindia.co/wp-content/uploads/2023/10/Good-Earth-_-Premium-Home-Furnishing-Mumbai-_-Evolve.jpg" alt="" class="rounded-circle border shadow" width="200px" height="200px"><p>Home furnishing</p>
+      </div>
+      <div class="col-2 ">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqcq5c9HI-KBZ9gtLq3CBtRIwqp3NVZiEd58I4kfoK27xzA2KFjjEWU0OPliwYW7EtQAQ&usqp=CAU" alt="" class="rounded-circle border shadow" width="200px" height="200px"><p>sale</p>
+      </div>
+  </div>
+   </section><br><br>
+
+
+
+   <div class="rowww-10 container shadow" style="background-image: url(https://www.houseopedia.com/wp-content/uploads/2023/07/Spice-Up-Your-Homes-Decor-With-Texture-e1690576256697-770x360.jpeg); background-position: center; border-radius: 10px;">
+    <div class="colll-3" >
+      <h2 class=" text-center fw-bolder fs-1" style="margin-top: 90px; margin-left: 100px; ">Woodco. </h2>
+     </div>
+    <div class=" colll-3 text-center">
+      <img src="../stock-vector--off-tag-sticker-label-badge-black-friday-sale-template-poster-banner-flyer-off-logo-2473542333-removebg-preview.png" alt="" width="200px" height="200px">
+      </div>
+    <div class=" colll-3">
+        <h2 class="text-center fw-bolder fs-1" style="margin-top: 90px; margin-right: 100px;">Wood World</h2>
+    </div>
+    </div>
+
+
+
+   </div><br><br><br><br>
+   <div class="container-fluid finest-12 text-center">
+    <h1 class="">India's Finest Online Furniture Brand</h1>
+    <p>Buy Furniture Online from our extensive collection of wooden furniture units to give your home an elegant touch at affordable prices. We offer a wide range of wooden furniture online to suit your home interiors. You can either buy furniture carved out of solid wood material from our offerings or get it customized to match your requirements. Buy furniture online and find the features, functionality, dimensions of the products, all with great ease. You can also avail the exciting deals and discount offers on our online furniture store. </p>
+    <br>
+  </div>
+
+<section3>
+    <div class="container-fluid fw-medium" style="display: flex; justify-content: space-around; width: 100%; height: 440px;   font-family: Poppins, sans-serif; font-style: normal; color: aliceblue;">
+      <div class="colllll me-3 ms-3" style="background-image: url(https://cms.interiorcompany.com/wp-content/uploads/2023/11/watt-lights-bedroom-furniture-design.png); width: 450px; height: 400px; background-size: cover; border-radius: 5px; ">
+        <p><span class="fs-2 ps-3 fw-medium">Bedroom</span><br><span class="ps-3">furniture</span><br><span class="ps-3">Upto 55% off</span></p>
+      </div>
+        <div class="colllll me-3" style="background-image: url(./200522-EB_12-Living-Room_1267-b13debcb440a4471981d7ac637e76e7a.jpg); width: 450px; height: 400px; background-size: cover; border-radius: 5px;">
+          <p><span class="fs-2 ps-3">Living Room</span><br><span class="ps-3">furniture</span><br><span class="ps-3">Upto 55% off</span></p>
+        </div>
+          <div class="colllll me-3" style="background-image: url(./an-ekedalen-dining-table-and-chairs-in-dark-wood-sit-in-fron-ce7e989c5117f9e23edafd31df066c48.avif); width: 450px; height: 400px; background-size: cover; border-radius: 5px;">
+            <p><span class="fs-2 ps-3">Dining Room</span><br><span class="ps-3">furniture</span><br><span class="ps-3">Upto 55% off</span></p>
+          </div>
+           
+    </div>
+
+
+<div class="container-fluid fw-medium" style="display: flex; justify-content: center; width: 100%; height: 500px;   font-family: Poppins, sans-serif; font-style: normal; color: white;">
+  <div class="colllll  me-5" style="background-image: url(./study-room-decoration-ideas-for-your-home.jpg); background-position: center; width: 450px; height: 400px; background-size: cover; border-radius: 10px;">
+    <p><span class="fs-2 ps-3">Study Room</span><br><span class="ps-3">furniture</span><br><span class="ps-3">Upto 55% off</span></p>
+
+  </div>
+    <div class="colllll ms-3" style="background-image: url(./4\ budget-friendly\ ways\ to\ set\ up\ the\ ultimate\ outdoor\ lounge.webp); width: 450px; height: 400px; background-size: cover; border-radius: 10px;">
+      <p><span class="fs-2 ps-3">Outdoor</span><br><span class="ps-3">furniture</span><br><span class="ps-3">Upto 55% off</span></p>
+  
+    
+</div>
+</div>
+
+
+
+    
+</section><br>
+<section id="section4" style="background-color: blanchedalmond; width: 100%; height: 650px;  font-family: Poppins, sans-serif; font-style: normal;"  >
+    <h1 class="ps-5 pt-5 mb-0">Explore Essential Home Furniture</h1>
+    <p class="ps-5 pt-0">Design Your Home decor on,your way</p>
+  <div class=".roww-12 container-fluid d-flex justify-content-around pt-4">
+    <div class="class-4 ">
+      <div class="card p-1" style="width: 350px; height: 400px;">
+        <img src="https://m.media-amazon.com/images/I/61NRj3Kb5XL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="..." height="400px">
+        <div style="height: 43px;">
+          <p style="padding: 0px; margin: 0px;">Sofa sets.</p>
+          <span><p style="padding: 0px; margin: 0px; font-size: small;">From Rs.20,199</p></span>
+        </div>
+      </div>
+      
+
+    </div>
+    <div class="class-4 ">
+      <div class="card p-1" style="width: 350px; height: 400px;">
+        <img src="https://m.media-amazon.com/images/I/81HaNfNc9UL.jpg" class="card-img-top" alt="..." height="400px">
+        <div style="height: 43px;">
+          <p style="padding: 0px; margin: 0px;">Seating & Chairs</p>
+          <span><p style="padding: 0px; margin: 0px; font-size: small;">From Rs.2,599</p></span>
+        </div>
+      </div>
+    </div>
+    <div class="class-4">
+      <div class="card p-1" style="width: 350px; height: 400px;">
+        <img src="https://studiokook.com/cdn/shop/files/jw-min_4413659d-703f-45f5-8080-a5de21957569.jpg?v=1713250287&width=720" class="card-img-top" alt="..." height="400px">
+        <div style="height: 43px;">
+          <p style="padding: 0px; margin: 0px;">Wardrobes</p>
+          <span><p style="padding: 0px; margin: 0px; font-size: small;">From Rs.20,599</p></span>
+        </div>
+      </div>
+    </div>
+    <div class="class-4">
+      <div class="card p-1" style="width: 350px; height: 400px;">
+        <img src="https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkxODI2MzQwMTYzMzY0MzM4/best-fall-home-decor-for-mood-boost---edited.jpg" class="card-img-top" alt="..." height="400px">
+        <div style="height: 43px;">
+          <p style="padding: 0px; margin: 0px;">Home Decor</p>
+          <span><p style="padding: 0px; margin: 0px; font-size: small;">From Rs.8,999</p></span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+  
+
+</section>
+<section id="section5" style="width: 100%; height: 800px; background-color: blanchedalmond;">
+  <h1 class="text-center mb-0 pt-5">Their words,Our Pride</h1>
+  <span class="text-center mt-0 "><p>Happy Words Of Our Happy customers</p></span>
+  
+
+  <div id="carouselExampleIndicators"  class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-indicators" >
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="background-color: blanchedalmond; ">
+      <div class="carousel-item active">
+        
+        <div class="rowca container" style="display: flex; justify-content: space-around;">
+
+
+          <div class="card" style="width: 400px; ">
+          
+            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2020-07/9/14/asset/8b76579742d9/sub-buzz-2301-1594305779-2.jpg?downsize=900:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+            <div class="card-body">
+              
+
+              <p class="card-text text-center p-0 m-0">
+                <span>Papia Bose,Noida</span><br>
+                <img src="https://th.bing.com/th/id/R.2002076951da1ee416e4c505b64b33e5?rik=TZ2%2f9g0fLHsesg&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f104-1043568_5-star-rating-png.png&ehk=YOQJ5d%2bFlIE%2bQSstHBdgNgOm3Xoqa3JuZLj0VNvpjrI%3d&risl=&pid=ImgRaw&r=0" alt="" width="90px" height="20px" >  
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+            
+              <li class="list-group-item">My father-in-low sent me the link to this website. And he suggested i purchase the arriot sofa set. i researched for a while and then ordered it for my home</li>
+             
+            </ul>
+           
+          </div>
+  
+  
+      
+          <div class="card" style="width: 400px; ">
+          
+            <img src="https://5.imimg.com/data5/SELLER/Default/2020/12/LR/GE/BL/9089429/antique-wooden-wardrobe-500x500.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              
+
+              <p class="card-text text-center p-0 m-0">
+                <span>Aashish roy,Mumbai</span><br>
+                <img src="https://th.bing.com/th/id/R.2002076951da1ee416e4c505b64b33e5?rik=TZ2%2f9g0fLHsesg&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f104-1043568_5-star-rating-png.png&ehk=YOQJ5d%2bFlIE%2bQSstHBdgNgOm3Xoqa3JuZLj0VNvpjrI%3d&risl=&pid=ImgRaw&r=0" alt="" width="90px" height="20px" >  
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+            
+              <li class="list-group-item">My father-in-low sent me the link to this website. And he suggested i purchase the arriot sofa set. i researched for a while and then ordered it for my home</li>
+             
+            </ul>
+           
+          </div>
+
+
+  
+  
+       
+          <div class="card" style="width: 400px; ">
+          
+            <img src="https://i.pinimg.com/736x/b8/2c/a6/b82ca6023fe9239034ae567805fb18b9.jpg" class="card-img-top" alt="..." height="400px">
+            <div class="card-body">
+              
+
+              <p class="card-text text-center p-0 m-0">
+                <span>Suresh,Kerala</span><br>
+                <img src="https://th.bing.com/th/id/R.2002076951da1ee416e4c505b64b33e5?rik=TZ2%2f9g0fLHsesg&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f104-1043568_5-star-rating-png.png&ehk=YOQJ5d%2bFlIE%2bQSstHBdgNgOm3Xoqa3JuZLj0VNvpjrI%3d&risl=&pid=ImgRaw&r=0" alt="" width="90px" height="20px" >  
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+            
+              <li class="list-group-item">My father-in-low sent me the link to this website. And he suggested i purchase the arriot sofa set. i researched for a while and then ordered it for my home</li>
+             
+            </ul>
+           
+          </div>
+
+
+
+        </div>
+        
+
+
+      </div>
+      <div class="carousel-item">
+        
+
+        
+          
+            
+            <div class="rowca container" style="display: flex; justify-content: space-around;">
+    
+    
+              <div class="card" style="width: 400px; ">
+              
+                <img src="https://hips.hearstapps.com/hmg-prod/images/neighbor-adirondack-chair-65fcae711dad9.png?crop=1.00xw:1.00xh;0,0&resize=640:*" class="card-img-top" alt="...">
+                <div class="card-body">
+                  
+    
+                  <p class="card-text text-center p-0 m-0">
+                    <span>Papia Bose,Noida</span><br>
+                    <img src="https://th.bing.com/th/id/R.2002076951da1ee416e4c505b64b33e5?rik=TZ2%2f9g0fLHsesg&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f104-1043568_5-star-rating-png.png&ehk=YOQJ5d%2bFlIE%2bQSstHBdgNgOm3Xoqa3JuZLj0VNvpjrI%3d&risl=&pid=ImgRaw&r=0" alt="" width="90px" height="20px" >  
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                
+                  <li class="list-group-item">My father-in-low sent me the link to this website. And he suggested i purchase the arriot sofa set. i researched for a while and then ordered it for my home</li>
+                 
+                </ul>
+               
+              </div>
+      
+      
+          
+              <div class="card" style="width: 400px; ">
+              
+                <img src="https://m.media-amazon.com/images/I/61ZVwbsBkuL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  
+    
+                  <p class="card-text text-center p-0 m-0">
+                    <span>Papia Bose,Noida</span><br>
+                    <img src="https://th.bing.com/th/id/R.2002076951da1ee416e4c505b64b33e5?rik=TZ2%2f9g0fLHsesg&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f104-1043568_5-star-rating-png.png&ehk=YOQJ5d%2bFlIE%2bQSstHBdgNgOm3Xoqa3JuZLj0VNvpjrI%3d&risl=&pid=ImgRaw&r=0" alt="" width="90px" height="20px" >  
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                
+                  <li class="list-group-item">My father-in-low sent me the link to this website. And he suggested i purchase the arriot sofa set. i researched for a while and then ordered it for my home</li>
+                 
+                </ul>
+               
+              </div>
+    
+    
+      
+      
+           
+              <div class="card" style="width: 400px; ">
+              
+                <img src="https://spacewoodonline.com/UploadedFiles/ProductImages/P8272022509540.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  
+    
+                  <p class="card-text text-center p-0 m-0">
+                    <span>Papia Bose,Noida</span><br>
+                    <img src="https://th.bing.com/th/id/R.2002076951da1ee416e4c505b64b33e5?rik=TZ2%2f9g0fLHsesg&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f104-1043568_5-star-rating-png.png&ehk=YOQJ5d%2bFlIE%2bQSstHBdgNgOm3Xoqa3JuZLj0VNvpjrI%3d&risl=&pid=ImgRaw&r=0" alt="" width="90px" height="20px" >  
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                
+                  <li class="list-group-item">My father-in-low sent me the link to this website. And he suggested i purchase the arriot sofa set. i researched for a while and then ordered it for my home</li>
+                 
+                </ul>
+               
+              </div>
+    
+    
+    
+            </div>
+            
+    
+    
+          </div>
+          
+
+
+        
+      
+    
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+  
+ </section>
+ <section id="section6" style="width: 100%; height: 750px;">
+  <h1 class="pt-5 ps-5">95+ Expiriences across India </h1>
+    <span class="ps-5"><caption class=> Get Upto 10% Offer on Your Nearest Stores..</caption></span>
+
+
+
+<div class="bang-12 container-fluid pt-5" style="display: flex; justify-content: space-around;">
+
+
+<div class="lore-2" style="background-image: url(https://www.euroschoolindia.com/wp-content/uploads/2024/02/20-Facts-About-Bangalore-Students-Should-Know.jpg); ">
+
+<h5>Banglore</h5>
+</div>
+
+<div class="lore-2" style="background-image: url(https://cms.finnair.com/resource/blob/2574008/a14e037941fbe6646a68cd56a8fea9d0/mumbai-main-data.jpg?impolicy=crop&width=2666&height=2666&x=667&y=0&imwidth=768); ">
+
+<h5>Mumbai</h5>
+</div>
+
+<div class="lore-2" style="background-image: url(https://thumbs.dreamstime.com/b/chennai-high-court-ancient-high-courts-india-madras-high-court-chennai-madras-chennai-high-court-ancient-high-courts-181356030.jpg); ">
+
+<h5>Chennai</h5>
+  </div>
+
+  <div class="lore-2" style="background-image: url(https://media.istockphoto.com/id/1215274990/photo/high-wide-angle-view-of-charminar-in-the-night.jpg?s=612x612&w=0&k=20&c=byyIjqgbslf-L191n6SJu0s35fvNoVeWsxV5rIPK7Sk=); ">
+
+    <h5>Hyderabad</h5>
+  </div>
+
+
+
+</div>
+
+
+
+<div class="bang-12 container-fluid pt-5" style="display: flex; justify-content: space-around;">
+
+
+  <div class="lore-2" style="background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230616/pngtree-d-illustration-of-india-gate-a-1920s-triumphal-arch-and-war-image_3602308.jpg); ">
+  
+<h5>Delhi</h5>  
+  
+  </div>
+  
+  <div class="lore-2" style="background-image: url(https://t4.ftcdn.net/jpg/01/88/32/17/360_F_188321796_MHBDch9jDIoqXfw5EZzxdxaeu3NIZXBl.jpg); ">
+  
+<h5>Jaipur</h5>  
+  </div>
+  
+  <div class="lore-2" style="background-image: url(https://t4.ftcdn.net/jpg/06/61/16/15/360_F_661161535_QDlqG5Zhoqu1pFaUQpb59bhJVAi0dhV8.jpg); ">
+  
+<h5>Guragaon</h5>  
+    </div>
+  
+    <div class="lore-2" style="background-image: url(https://media.istockphoto.com/id/1742416130/photo/dakshineswar-kali-temple-illuminated-at-night-in-kolkata-west-bengal-india.webp?b=1&s=170667a&w=0&k=20&c=pj_0oV9e8s09yEyF-HeXhQq89IIDmv-o1AoACZD2Rw8=); ">
+  
+<h5>Kolkata</h5>    </div>
+  
+  
+  
+  </div>
+
+
+
+  
+ </section>
+  
+
+<footer>
+
+<div class="foo-12 container-fluid text-center ">
+  <div class="ter-2 ">
+   <i class="fa-solid fa-shop pt-3"></i>
+    95+  experience stores across india
+  </div>
+  <div class="ter-2">
+    <i class="fa-solid fa-truck pt-3 "></i>
+  Delivery centers across India
+
+  </div>
+  <div class="ter-2">
+    <i class="fa-regular fa-thumbs-up"></i>
+    10 lakhs+ satisfied customers
+  </div>
+  <div class="ter-2">
+    <i class="fa-solid fa-award"></i>
+    Lowest Price Guarantee
+  </div>
+</div>
+
+</div><br><br>
+
+<div class="our container-fluid" >
+
+<div class="comp">
+<ul >
+  <h5>OUR COMPANY</h5><br>
+  <li>About us</li>
+  <li>Media</li>
+  <li>career</li>
+  <li>Blog</li>
+  <li>Customer Services</li>
+  <li>Our Stores</li>
+</ul>
+
+</div>
+<div class="comp">
+  <ul>
+    <h5>USEFUL LINKS</h5><br>
+    <li>Custom furnitures</li>
+    <li>Exporters</li>
+    <li>Buy in Bulk</li>
+    <li>Hotel Furmiture</li>
+    <li>Delivery Location</li>
+    <li>Sitemap</li>
+  </ul>
+</div>
+<div class="comp">
+  <ul>
+    <h5>SHOP BY ROOM</h5><br>
+    <li>Living Room</li>
+    <li>Dining Room</li>
+    <li>Kids Room</li>
+    <li>Bedroom</li>
+    <li>Modular Furniture</li>
+    <li>Modular Wardrobe</li>
+    <li>Modular Kitchen</li>
+  </ul>
+</div>
+<div class="comp">
+  <ul>
+    <h5>PARTNERS</h5><br>
+    <li>Become a Franchise</li>
+    <li>Sell on Wooden Street</li>
+    <li>Design Partner</li><br>
+    <h5>Trusted By</h5>
+    <li>QRO Certified</li>
+    <li>UKcert Certified</li>
+    <li><img src="https://www.qrocert.com/images/logo.png" alt=""> <img src="https://www.ukcertifications.org.uk/images/logo.png" alt=""></li>
+  </ul>
+</div>
+<div class="comp">
+  <ul>
+    <h5>NEED HELP</h5><br>
+    <li>Help Center</li>
+    <li>Contact US</li>
+    <li>Ask Experts</li>
+    <li>Track Your Order</li>
+  
+  </ul>
+</div>
+
+
+
+</div>
+
+
+<div class="deli container-fluid">
+  <div class="very-4">
+    <p><span class="fw-bolder">Delivery Across India : </span>Ahmedabad, Bangalore, Bhopal, Chandigarh, Chennai, Coimbatore, Faridabad, Ghaziabad, Goa, Gurgaon, Hyderabad, Indore, Jaipur and More Cities</p>
+  </div>
+  <div class="very-4">
+    <h5 style="margin-left: 20px; margin-top: 10px;">We Accept</h5>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0tubqqOWuY630wllhqVlo4_NS1aNna-mBzA&s" alt="" style="width: 320px; height: 110px; margin-left: 30px;">
+  </div>
+  <div class="very-4">
+    <h5>Download App</h5>
+    <img src="https://image.shutterstock.com/image-photo/image-260nw-2293917457.jpg" alt="" style="width: 320px; height: 110px; margin-left: 30px;">
+  </div>
+</div><hr>
+
+</footer>
+
+
+
+</body>
+</html>
+<!-- <i><i class="fa-solid fa-couch"></i></i>
+<h1 class="text-center">Furniture Site</h1> -->
+
+
+
+
+
+<!-- 
+<!-- 
+<div class="col5-3">
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- <div class="col5-3">
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col5-3">
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div> -->
+
+
